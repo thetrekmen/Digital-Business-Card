@@ -1,0 +1,113 @@
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+.details-container {
+    text-align: left;
+    margin: 0 10%;
+    margin-bottom: 32px;
+}
+
+.details--name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    justify-self: center;
+    margin: 0;
+}
+
+.details--title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin: 0;
+    margin-top: 6px;
+}
+
+.details--email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    text-align: center;
+    color: #F5F5F5;
+    margin: 0;
+    margin-top: 9px;
+}
+
+.email-submit {
+    width: 100%;
+    height: 34px;
+    background-color: #D1D5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    gap: 9.5px;
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.email-submit--img {
+    width: 13px;
+    height: 9.5px;
+    background-image: url('./assets/Email.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.email-submit--text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* gray/700 */
+
+    color: #374151;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #F5F5F5;
+    text-align: left;
+    margin: 0;
+}
+.about-title {
+    margin-top: 32px;
+}
+.interest-title {
+    margin-top: 15px;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #DCDCDC;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    /* outline: red solid 1px; */
+}

@@ -1,0 +1,28 @@
+.footer-container {
+    width: 100%;
+    height: 64px;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer-container--links {
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-container--links:nth-child(1) {
+    background-image: url('./assets/Twitter-Icon.png');
+    margin-right: 25px;
+}
+.footer-container--links:nth-child(2) {
+    background-image: url('./assets/Linkedin-Icon.png');
+    margin-right: 25px;
+}
+.footer-container--links:nth-child(3) {
+    background-image: url('./assets/Github-Icon.png');
+}
