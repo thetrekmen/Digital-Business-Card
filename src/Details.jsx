@@ -5,7 +5,7 @@ export default function Details() {
     return (
         <div className='details-container'>
             <h1 className='details--name' >Patrick Jones</h1>
-            <h4 className='details--title' >Frontend Developer</h4>
+            <h4 className='details--title' >Front-end Developer</h4>
             <p className='details--email' >jonespm1.dev@gmail.com</p>
             <a className='email-submit' href="#" >
                 <div className='email-submit--img' ></div>
